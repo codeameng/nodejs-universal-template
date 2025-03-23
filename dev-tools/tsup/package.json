@@ -1,0 +1,17 @@
+{
+  "name": "@dev-tools/tsup",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsup --watch",
+    "turbo:build:clean": "rimraf dist",
+    "build": "tsup --clean"
+  },
+  "devDependencies": {
+    "@dev-tools/tsconfigs": "workspace:*",
+    "rimraf": "6.0.1"
+  },
+  "dependencies": {
+    "tsup": "8.4.0"
+  }
+}

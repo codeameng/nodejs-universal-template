@@ -1,0 +1,14 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.workspace.json"
+    },
+    {
+      "path": "./dev-tools/tsup/tsconfig.json"
+    },
+    {
+      "path": "./dev-tools/utils/tsconfig.json"
+    }
+  ]
+}

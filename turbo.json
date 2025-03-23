@@ -1,0 +1,17 @@
+{
+  "$schema": "./node_modules/turbo/schema.json",
+  "ui": "tui",
+  "tasks": {
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "turbo:build:clean": {
+      "cache": false
+    },
+    "build": {
+      "dependsOn": ["turbo:build:clean", "^build"],
+      "outputs": ["dist/**"]
+    }
+  }
+}
