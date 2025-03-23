@@ -1,0 +1,10 @@
+{
+  "name": "@tooling/tsconfigs",
+  "type": "module",
+  "dependencies": {
+    "@tsconfig/node-ts": "23.6.1",
+    "@tsconfig/node20": "20.1.5",
+    "@tsconfig/recommended": "1.0.8",
+    "@tsconfig/strictest": "2.0.5"
+  }
+}

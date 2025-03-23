@@ -1,0 +1,16 @@
+# Packages
+packages:
+  - 'tooling/*'
+
+# CLI Settings
+engineStrict: true
+
+# Build Settings
+onlyBuiltDependencies:
+  - 'esbuild'
+
+# Node.js Settings
+useNodeVersion: '22.14.0'
+
+# Other Settings
+savePrefix: ''

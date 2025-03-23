@@ -1,0 +1,9 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.workspace.json" },
+    { "path": "./tooling/prettier/tsconfig.json" },
+    { "path": "./tooling/tsup/tsconfig.json" },
+    { "path": "./tooling/utils/tsconfig.json" }
+  ]
+}
