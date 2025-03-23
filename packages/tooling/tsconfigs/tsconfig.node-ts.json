@@ -1,0 +1,8 @@
+{
+  "extends": [
+    "@tooling/tsconfigs/presets/tsconfig.base.json",
+    "@tsconfig/node20/tsconfig.json",
+    "@tsconfig/node-ts/tsconfig.json",
+    "@tooling/tsconfigs/presets/tsconfig.overrides.json",
+  ],
+}

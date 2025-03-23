@@ -1,0 +1,10 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.workspace.json" },
+    { "path": "./turbo/generators/tsconfig.json" },
+    { "path": "./packages/tooling/prettier/tsconfig.json" },
+    { "path": "./packages/tooling/tsup/tsconfig.json" },
+    { "path": "./packages/tooling/utils/tsconfig.json" },
+  ],
+}

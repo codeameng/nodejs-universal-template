@@ -1,0 +1,13 @@
+packages:
+  - turbo/generators
+  - packages/*/*
+
+engineStrict: true
+
+onlyBuiltDependencies:
+  - core-js-pure
+  - esbuild
+
+useNodeVersion: 22.14.0
+
+savePrefix: ''

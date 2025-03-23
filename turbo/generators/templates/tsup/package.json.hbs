@@ -1,0 +1,14 @@
+{
+  "name": "@{{ scope }}/{{ name }}",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "setup": "tsup --clean --silent",
+    "dev": "tsup --watch"
+  },
+  "devDependencies": {
+    "@tooling/tsconfigs": "workspace:*",
+    "@tooling/tsup": "workspace:*",
+    "tsup": "{{ tsupVersion }}"
+  }
+}

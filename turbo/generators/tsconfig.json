@@ -1,0 +1,1 @@
+{ "extends": "@tooling/tsconfigs/tsconfig.node.json" }
