@@ -1,0 +1,32 @@
+{
+  "name": "@codeameng/nodejs-universal-template",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "A universal Node.js template, designed to facilitate AI-assisted programming and standardize development practices across team members.",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "postinstall": "run-s --silent \"postinstall:**\"",
+    "postinstall:clean:dev-kits": "rimraf --glob dev-kits/*/dist",
+    "postinstall:build:dev-kits": "turbo run build:dev-kits --output-logs=errors-only",
+    "dev:dev-kits": "turbo run dev:dev-kits",
+    "build:dev-kits": "turbo run build:dev-kits",
+    "code-review": "run-s \"code-review:**\"",
+    "code-review:tsc": "tsc --build"
+  },
+  "author": "codeameng",
+  "license": "MIT",
+  "packageManager": "pnpm@10.7.0",
+  "engines": {
+    "node": "20.17.0",
+    "pnpm": ">=10"
+  },
+  "devDependencies": {
+    "@dev-kits/typescript": "workspace:*",
+    "@types/node": "20.17.27",
+    "npm-run-all2": "7.0.2",
+    "only-allow": "1.2.1",
+    "rimraf": "6.0.1",
+    "turbo": "2.4.4",
+    "typescript": "5.8.2"
+  }
+}

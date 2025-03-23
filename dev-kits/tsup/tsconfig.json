@@ -1,0 +1,4 @@
+{
+  "extends": "@dev-kits/typescript/tsconfig.node-tsup.json",
+  "exclude": ["dist"]
+}

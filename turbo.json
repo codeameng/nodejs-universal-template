@@ -1,0 +1,14 @@
+{
+  "$schema": "./node_modules/turbo/schema.json",
+  "ui": "tui",
+  "tasks": {
+    "dev:dev-kits": {
+      "cache": false,
+      "persistent": true
+    },
+    "build:dev-kits": {
+      "dependsOn": ["^build:dev-kits"],
+      "outputs": ["dist/**"]
+    }
+  }
+}

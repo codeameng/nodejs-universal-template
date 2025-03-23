@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "./presets/tsconfig.base.json",
+    "@tsconfig/node20/tsconfig.json",
+    "./presets/tsconfig.overrides.json"
+  ],
+  "compilerOptions": {
+    "allowImportingTsExtensions": true
+  }
+}

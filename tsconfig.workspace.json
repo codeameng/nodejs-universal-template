@@ -1,0 +1,4 @@
+{
+  "extends": "@dev-kits/typescript/tsconfig.node-ts.json",
+  "exclude": ["dev-kits"]
+}

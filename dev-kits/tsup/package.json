@@ -1,0 +1,15 @@
+{
+  "name": "@dev-kits/tsup",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev:dev-kits": "tsup --watch",
+    "build:dev-kits": "tsup --clean"
+  },
+  "devDependencies": {
+    "@dev-kits/typescript": "workspace:*"
+  },
+  "peerDependencies": {
+    "tsup": "8.4.0"
+  }
+}
