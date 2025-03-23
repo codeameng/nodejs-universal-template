@@ -1,0 +1,5 @@
+# Auto generated files
+pnpm-lock.yaml
+
+# Unsupported handlebars template files
+*.*.hbs

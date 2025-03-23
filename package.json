@@ -1,0 +1,44 @@
+{
+  "name": "@codeameng/nodejs-universal-template",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "A universal Node.js template, designed to facilitate AI-assisted programming and standardize development practices across team members.",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "postinstall": "tsx scripts/postinstall.ts",
+    "setup-vscode": "tsx scripts/setup-vscode.ts",
+    "setup-packages": "tsx scripts/setup-packages.ts",
+    "gen": "turbo gen",
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "code-review": "run-s code-review:**",
+    "code-review:tsc": "tsc --build",
+    "code-review:prettier": "prettier --check --log-level=warn .",
+    "ncu:check": "ncu --workspaces --format=group",
+    "ncu:upgrade-patch": "ncu --workspaces --upgrade --target=patch",
+    "ncu:interactive": "ncu --workspaces --interactive --format=group"
+  },
+  "author": "codeameng",
+  "license": "MIT",
+  "packageManager": "pnpm@10.10.0",
+  "engines": {
+    "node": "^22.14.0",
+    "pnpm": ">=10"
+  },
+  "devDependencies": {
+    "@manypkg/get-packages": "2.2.2",
+    "@tooling/prettier": "workspace:*",
+    "@tooling/tsconfigs": "workspace:*",
+    "@types/edit-json-file": "1.7.3",
+    "@types/node": "22.15.2",
+    "edit-json-file": "1.8.1",
+    "execa": "9.5.2",
+    "npm-check-updates": "18.0.1",
+    "npm-run-all2": "7.0.2",
+    "only-allow": "1.2.1",
+    "prettier": "3.5.3",
+    "tsx": "4.19.3",
+    "turbo": "2.5.2",
+    "typescript": "5.8.3"
+  }
+}

@@ -1,0 +1,1 @@
+{ "extends": "@tooling/tsconfigs/tsconfig.node-ts.json", "exclude": ["dist"] }

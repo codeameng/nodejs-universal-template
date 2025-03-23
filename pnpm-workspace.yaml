@@ -1,0 +1,15 @@
+packages:
+  - turbo/generators
+  - packages/*/*
+
+registry: https://registry.npmjs.org/
+
+engineStrict: true
+
+onlyBuiltDependencies:
+  - core-js-pure
+  - esbuild
+
+useNodeVersion: 22.15.0
+
+savePrefix: ''

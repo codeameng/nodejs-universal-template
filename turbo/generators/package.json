@@ -1,0 +1,14 @@
+{
+  "name": "turbo-generators",
+  "type": "commonjs",
+  "dependencies": {
+    "@manypkg/get-packages": "2.2.2",
+    "@turbo/gen": "2.5.2",
+    "validate-npm-package-name": "6.0.0"
+  },
+  "devDependencies": {
+    "@tooling/tsconfigs": "workspace:*",
+    "@tooling/tsup": "workspace:*",
+    "@types/validate-npm-package-name": "4.0.2"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "@tooling/prettier",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "setup": "tsup --clean --silent",
+    "dev": "tsup --watch"
+  },
+  "devDependencies": {
+    "@tooling/tsconfigs": "workspace:*",
+    "@tooling/tsup": "workspace:*",
+    "@tooling/utils": "workspace:*",
+    "tsup": "8.4.0"
+  },
+  "dependencies": {
+    "prettier": "3.5.3"
+  },
+  "peerDependencies": {
+    "prettier": "3.5.3"
+  }
+}
